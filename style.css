@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* body {
+    background-color: #8b5300d4;
+} */
+
+nav {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 5%;
+    height: 60px;
+}
+
+nav .logo {
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: context-menu;
+}
+
+@media screen and (max-width: 768px) {
+    nav .logo {
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+}
+
+.box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#biryani {
+    background-image: url(./images/shourav-sheikh-iryb5QqdVr4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.list {
+    margin-left: 50px;
+    padding: 10px;
+}
